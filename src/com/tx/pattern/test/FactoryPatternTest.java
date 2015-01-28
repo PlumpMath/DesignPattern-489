@@ -11,7 +11,7 @@ public class FactoryPatternTest {
 	public void testSimpleFactory()
 	{
 		SenderFactory sf = new SenderFactory();
-		Sender sender = sf.product("smsse");
+		Sender sender = sf.product("sms");
 		sender.send();
 	}
 }
